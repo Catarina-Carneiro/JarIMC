@@ -4,7 +4,7 @@ if [ $? = 0 ]
 
 then echo "Realizando execução do Java"
         if[[-d "$/home/a02201009/Desktop/JarIMC"]]
-                then
+                then echo "teste"
         else         
                 cd /home/a02201009/Desktop
                 git clone https://github.com/Catarina-Carneiro/JarIMC.git
